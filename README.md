@@ -1,9 +1,12 @@
 # IWeather FC°
 
-"IWeather FC°" is interactive and easy to use IOS APP which provides accurate real-time, hourly 5-days and weekly weather forecasting with detail information (wind speed and degree, pressure, humidity … etc.). With Modern UI design and interactive weather conditions (Rainy, Snowy, Cloudy … etc.) with animated effects. It supports auto-detect location and unlimited location adding with autocomplete location search feature. Feel free to download the [APP](https://github.com/mkihmouda) from APP Store. 
- 
+
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org/)
 [![License](https://img.shields.io/cocoapods/l/ParallaxView.svg)](https://github.com/PGSSoft/ParallaxView/LICENSE.md)
+
+
+"IWeather FC°" is interactive and easy to use IOS APP which provides accurate real-time, hourly 5-days and weekly weather forecasting with detail information (wind speed and degree, pressure, humidity … etc.). With Modern UI design and interactive weather conditions (Rainy, Snowy, Cloudy … etc.) with animated effects. It supports auto-detect location and unlimited location adding with autocomplete location search feature. Feel free to download the [APP](https://github.com/mkihmouda) from APP Store. 
+ 
 
  
 ## Requirements
