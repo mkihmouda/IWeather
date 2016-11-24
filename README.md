@@ -19,14 +19,14 @@ Swift 3.0
 <p align="center">
  
   <br><br>  <br><br>
-  <img src="http://katikids.com/IWeather1.png" height="850" width="600">
+  <img src="http://katikids.com/IWeather1.png" height="650" width="400">
  
   </p>
   
  
 <p align="center">
  
-   <img src="http://katikids.com/IWeather2.png" height="850" width="400">
+   <img src="http://katikids.com/IWeather2.png" height="650" width="400">
  
  </p>
   
@@ -35,14 +35,14 @@ Swift 3.0
   
   <p align="center">
  
-  <img src="http://katikids.com/IWeather3.png" height="850" width="600">
+  <img src="http://katikids.com/IWeather3.png" height="650" width="400">
  
   </p>
   
   
   <p align="center">
  
-   <img src="http://katikids.com/IWeather6.png" height="850" width="600">
+   <img src="http://katikids.com/IWeather6.png" height="650" width="400">
  
  </p>
   
@@ -52,7 +52,7 @@ Swift 3.0
   
   <p align="center">
  
-  <img src="http://katikids.com/iweather5.jpg" height="850" width="400">
+  <img src="http://katikids.com/iweather5.jpg" height="650" width="400">
  
   </p>
   
