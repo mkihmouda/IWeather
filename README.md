@@ -30,7 +30,7 @@ Swift 3.0
  </p>
   
 
-<B>IWeather integrate Google Places and Maps APIs for autocomplete locations search. </B>
+<div><B>IWeather integrate Google Places and Maps APIs for autocomplete locations search. </B> <div>
  
   
   <p align="center">
