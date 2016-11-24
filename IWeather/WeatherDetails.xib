@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WeatherDetails" customModule="IWeather" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="423"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUd-nW-vUS">
+                    <rect key="frame" x="20" y="20" width="335" height="379"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3uD-Wl-qjt">
+                            <rect key="frame" x="8" y="8" width="319" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axD-ep-Eqq">
+                                    <rect key="frame" x="0.0" y="5" width="319" height="17"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lD1-45-t4P">
+                                    <rect key="frame" x="0.0" y="30" width="319" height="1"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="lD1-45-t4P" firstAttribute="top" secondItem="axD-ep-Eqq" secondAttribute="bottom" constant="8" id="8yO-3n-iuB"/>
+                                <constraint firstItem="lD1-45-t4P" firstAttribute="leading" secondItem="3uD-Wl-qjt" secondAttribute="leading" id="Cme-t9-J3f"/>
+                                <constraint firstItem="axD-ep-Eqq" firstAttribute="top" secondItem="3uD-Wl-qjt" secondAttribute="top" constant="5" id="Jz5-8b-Ea9"/>
+                                <constraint firstAttribute="trailing" secondItem="lD1-45-t4P" secondAttribute="trailing" id="XBI-Q1-CzN"/>
+                                <constraint firstAttribute="bottom" secondItem="lD1-45-t4P" secondAttribute="bottom" constant="5" id="f8T-kt-rXV"/>
+                                <constraint firstAttribute="trailing" secondItem="axD-ep-Eqq" secondAttribute="trailing" id="flv-QD-Me6"/>
+                                <constraint firstItem="axD-ep-Eqq" firstAttribute="leading" secondItem="3uD-Wl-qjt" secondAttribute="leading" id="s0X-De-a0z"/>
+                                <constraint firstItem="lD1-45-t4P" firstAttribute="width" secondItem="axD-ep-Eqq" secondAttribute="height" multiplier="319:17" id="uyA-Ci-C69"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ldj-Ui-gr6">
+                            <rect key="frame" x="8" y="47" width="319" height="98"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPJ-4V-SlD">
+                                    <rect key="frame" x="180" y="8" width="147" height="80"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BJM-rF-mpl">
+                                            <rect key="frame" x="15" y="13" width="132" height="54"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="daC-mO-zTs">
+                                                    <rect key="frame" x="0.0" y="0.0" width="132" height="23"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWK-DK-9rU">
+                                                            <rect key="frame" x="0.0" y="0.0" width="66" height="23"/>
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wl-ON-ctd">
+                                                            <rect key="frame" x="66" y="0.0" width="66" height="23"/>
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Syb-GX-zKl">
+                                                    <rect key="frame" x="0.0" y="31" width="132" height="23"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avg. Temp :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tet-Hd-QFu">
+                                                            <rect key="frame" x="0.0" y="0.0" width="66" height="23"/>
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5I-VF-lE7">
+                                                            <rect key="frame" x="66" y="0.0" width="66" height="23"/>
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="BJM-rF-mpl" secondAttribute="bottom" constant="13" id="Sw4-ov-H9Y"/>
+                                        <constraint firstItem="BJM-rF-mpl" firstAttribute="top" secondItem="qPJ-4V-SlD" secondAttribute="top" constant="13" id="VcE-bx-xhj"/>
+                                        <constraint firstAttribute="trailing" secondItem="BJM-rF-mpl" secondAttribute="trailing" id="Z4v-do-Md4"/>
+                                        <constraint firstItem="BJM-rF-mpl" firstAttribute="leading" secondItem="qPJ-4V-SlD" secondAttribute="leading" constant="15" id="dIJ-0N-7pW"/>
+                                    </constraints>
+                                </view>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smoke" translatesAutoresizingMaskIntoConstraints="NO" id="Jbf-D3-utm">
+                                    <rect key="frame" x="0.0" y="-9" width="76" height="97"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Jbf-D3-utm" firstAttribute="width" secondItem="qPJ-4V-SlD" secondAttribute="height" multiplier="9:4" constant="-104" id="9Gd-ss-MqS"/>
+                                <constraint firstItem="Jbf-D3-utm" firstAttribute="leading" secondItem="Ldj-Ui-gr6" secondAttribute="leading" id="9u1-bJ-pab"/>
+                                <constraint firstAttribute="bottom" secondItem="Jbf-D3-utm" secondAttribute="bottom" constant="10" id="DU7-mp-JTn"/>
+                                <constraint firstItem="Jbf-D3-utm" firstAttribute="top" secondItem="Ldj-Ui-gr6" secondAttribute="top" constant="-9" id="Hub-Wh-3St"/>
+                                <constraint firstAttribute="trailing" secondItem="qPJ-4V-SlD" secondAttribute="trailing" constant="-8" id="K6k-uI-xf7"/>
+                                <constraint firstAttribute="bottom" secondItem="qPJ-4V-SlD" secondAttribute="bottom" constant="10" id="RlI-f6-OVq"/>
+                                <constraint firstItem="qPJ-4V-SlD" firstAttribute="leading" secondItem="Jbf-D3-utm" secondAttribute="trailing" constant="104" id="ljn-ZJ-QPE"/>
+                                <constraint firstItem="qPJ-4V-SlD" firstAttribute="top" secondItem="Ldj-Ui-gr6" secondAttribute="top" constant="8" id="vW2-c8-w43"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KrY-3P-emK">
+                            <rect key="frame" x="8" y="148" width="319" height="231"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mgA-4y-1F9">
+                                    <rect key="frame" x="59" y="8" width="200" height="1"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3Z-YI-gUu">
+                                    <rect key="frame" x="0.0" y="20" width="319" height="48"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="tnq-CE-veV">
+                                            <rect key="frame" x="0.0" y="0.0" width="319" height="48"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="67d-X6-Uwm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="144.5" height="48"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="GTw-br-FeO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="144.5" height="14"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country Code :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygf-Yk-jsR">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="70.5" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tjq-RA-8kG">
+                                                                    <rect key="frame" x="74.5" y="0.0" width="70" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ZhZ-UD-YL5">
+                                                            <rect key="frame" x="0.0" y="34" width="144.5" height="14"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxZ-3D-O9j">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="70.5" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chemnitz" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooh-Be-ks7">
+                                                                    <rect key="frame" x="74.5" y="0.0" width="70" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="drL-4n-MgQ">
+                                                    <rect key="frame" x="174.5" y="0.0" width="144.5" height="48"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UFY-4Q-lEh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="144.5" height="14"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAT-xn-qKG">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="72.5" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.2°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui3-iL-Gmo">
+                                                                    <rect key="frame" x="72.5" y="0.0" width="72" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="k5e-cE-lnv">
+                                                            <rect key="frame" x="0.0" y="34" width="144.5" height="14"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yf4-Ps-hpO">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="72.5" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25.3°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhv-2s-lhU">
+                                                                    <rect key="frame" x="72.5" y="0.0" width="72" height="14"/>
+                                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="tnq-CE-veV" secondAttribute="trailing" id="KgT-eR-Mc1"/>
+                                        <constraint firstItem="tnq-CE-veV" firstAttribute="top" secondItem="v3Z-YI-gUu" secondAttribute="top" id="Wao-7P-CJN"/>
+                                        <constraint firstItem="tnq-CE-veV" firstAttribute="leading" secondItem="v3Z-YI-gUu" secondAttribute="leading" id="mIi-Xo-zRd"/>
+                                        <constraint firstAttribute="bottom" secondItem="tnq-CE-veV" secondAttribute="bottom" id="teQ-CA-Ujp"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lg3-MC-JVy">
+                                    <rect key="frame" x="0.0" y="95" width="319" height="144"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="144" id="TQB-tP-g8d"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="mgA-4y-1F9" firstAttribute="top" secondItem="KrY-3P-emK" secondAttribute="top" constant="8" id="3Hj-mn-7kS"/>
+                                <constraint firstItem="mgA-4y-1F9" firstAttribute="leading" secondItem="KrY-3P-emK" secondAttribute="leading" constant="59" id="96M-r0-YOp"/>
+                                <constraint firstItem="v3Z-YI-gUu" firstAttribute="top" secondItem="KrY-3P-emK" secondAttribute="top" constant="20" id="Ahe-pU-AHC"/>
+                                <constraint firstAttribute="bottom" secondItem="lg3-MC-JVy" secondAttribute="bottom" constant="-8" id="BPZ-we-Hxv"/>
+                                <constraint firstItem="lg3-MC-JVy" firstAttribute="centerX" secondItem="KrY-3P-emK" secondAttribute="centerX" id="Ggp-hf-fyB"/>
+                                <constraint firstItem="v3Z-YI-gUu" firstAttribute="top" secondItem="mgA-4y-1F9" secondAttribute="bottom" constant="11" id="LRI-KO-5aV"/>
+                                <constraint firstAttribute="trailing" secondItem="lg3-MC-JVy" secondAttribute="trailing" id="Pui-o8-ucH"/>
+                                <constraint firstItem="v3Z-YI-gUu" firstAttribute="leading" secondItem="KrY-3P-emK" secondAttribute="leading" id="kM5-v7-xeX"/>
+                                <constraint firstItem="lg3-MC-JVy" firstAttribute="leading" secondItem="KrY-3P-emK" secondAttribute="leading" id="q0h-sc-76V"/>
+                                <constraint firstAttribute="trailing" secondItem="v3Z-YI-gUu" secondAttribute="trailing" id="tXI-FP-V8g"/>
+                                <constraint firstItem="mgA-4y-1F9" firstAttribute="width" secondItem="v3Z-YI-gUu" secondAttribute="height" multiplier="25:6" id="x3j-gc-pNq"/>
+                                <constraint firstAttribute="trailing" secondItem="mgA-4y-1F9" secondAttribute="trailing" constant="60" id="xrj-rN-BHt"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="KrY-3P-emK" firstAttribute="top" secondItem="Ldj-Ui-gr6" secondAttribute="bottom" constant="3" id="AV7-IS-LgM"/>
+                        <constraint firstItem="KrY-3P-emK" firstAttribute="width" secondItem="Ldj-Ui-gr6" secondAttribute="height" multiplier="29:10" constant="34.800000000000011" id="CRU-bP-GiJ"/>
+                        <constraint firstItem="3uD-Wl-qjt" firstAttribute="leading" secondItem="mUd-nW-vUS" secondAttribute="leading" constant="8" id="P3U-b7-pHF"/>
+                        <constraint firstItem="KrY-3P-emK" firstAttribute="leading" secondItem="mUd-nW-vUS" secondAttribute="leading" constant="8" id="SeI-yL-PvL"/>
+                        <constraint firstAttribute="trailing" secondItem="Ldj-Ui-gr6" secondAttribute="trailing" constant="8" id="W9S-bi-4EO"/>
+                        <constraint firstAttribute="trailing" secondItem="KrY-3P-emK" secondAttribute="trailing" constant="8" id="a1a-mp-Ora"/>
+                        <constraint firstAttribute="trailing" secondItem="3uD-Wl-qjt" secondAttribute="trailing" constant="8" id="aXa-nc-es4"/>
+                        <constraint firstItem="KrY-3P-emK" firstAttribute="width" secondItem="3uD-Wl-qjt" secondAttribute="height" multiplier="319:36" id="cLh-lq-gjD"/>
+                        <constraint firstItem="Ldj-Ui-gr6" firstAttribute="leading" secondItem="mUd-nW-vUS" secondAttribute="leading" constant="8" id="dmo-Tk-t8X"/>
+                        <constraint firstItem="3uD-Wl-qjt" firstAttribute="top" secondItem="mUd-nW-vUS" secondAttribute="top" constant="8" id="gm9-ss-8b4"/>
+                        <constraint firstAttribute="bottom" secondItem="KrY-3P-emK" secondAttribute="bottom" id="s5h-ha-oRL"/>
+                        <constraint firstItem="Ldj-Ui-gr6" firstAttribute="top" secondItem="3uD-Wl-qjt" secondAttribute="bottom" constant="3" id="yUP-NS-wYZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mUd-nW-vUS" secondAttribute="bottom" constant="24" id="0A8-Qh-9VH"/>
+                <constraint firstAttribute="trailing" secondItem="mUd-nW-vUS" secondAttribute="trailing" constant="20" id="FCS-Tk-dId"/>
+                <constraint firstItem="mUd-nW-vUS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Jfa-a7-Jsb"/>
+                <constraint firstItem="mUd-nW-vUS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="rKz-N3-pZr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="countryCode" destination="Tjq-RA-8kG" id="kFE-TD-TGc"/>
+                <outlet property="currentTemp" destination="O5I-VF-lE7" id="LZ7-y0-DZ1"/>
+                <outlet property="latitiude" destination="hhv-2s-lhU" id="qv1-nT-rQg"/>
+                <outlet property="longitude" destination="Ui3-iL-Gmo" id="0WP-xp-Oua"/>
+                <outlet property="placeName" destination="ooh-Be-ks7" id="Ie2-pp-cPB"/>
+                <outlet property="weatherType" destination="4wl-ON-ctd" id="ecQ-RU-r7O"/>
+            </connections>
+            <point key="canvasLocation" x="-396.5" y="-205.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Smoke" width="256" height="256"/>
+    </resources>
+</document>
