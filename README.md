@@ -46,13 +46,13 @@ Swift 3.0
 <B> IWeather insure data persistence by applying the Core data and NSFetchedResultsController to easily update UI with   different core data operations (Add/Delete/Update).</B>
 
   
-  <p align="center">
+  <div align="center">
  
   <img src="http://katikids.com/iweather5.jpg" height="550" width="300">
  
-  </p>
+  </div>
   
- Whatever the Weather Be Ready With IWeather.
+ <B> Whatever the Weather Be Ready With IWeather.</B>
   
  
 ## License
