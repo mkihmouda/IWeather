@@ -55,7 +55,7 @@ Swift 3.0
  
   </div>
   
- <B> Whatever the Weather Be Ready With IWeather.</B>
+ <B> Whatever the Weather Is, Be Ready With IWeather.</B>
   
  
 ## License
