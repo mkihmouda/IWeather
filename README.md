@@ -32,6 +32,14 @@ Swift 3.0
 
  <B>IWeather integrate Google Places and Maps APIs for autocomplete locations search. </B>
  
+ 
+ <figure align="center" >
+  <img src="http://katikids.com/IWeather3.png" height="550" width="300">
+   <img src="http://katikids.com/IWeather6.png" height="550" width="300">
+</figure>
+
+
+
   
   <div align="center">
  
