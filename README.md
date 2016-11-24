@@ -42,22 +42,7 @@ Swift 3.0
  
   </div>
 
-
-  
-  <div align="center">
  
-  <img src="http://katikids.com/IWeather3.png" height="550" width="300">
- 
-  </div>
-  
-  
-  <p align="center">
- 
-   <img src="http://katikids.com/IWeather6.png" height="550" width="300">
- 
- </p>
-  
-  
 <B> IWeather insure data persistence by applying the Core data and NSFetchedResultsController to easily update UI with   different core data operations (Add/Delete/Update).</B>
 
   
