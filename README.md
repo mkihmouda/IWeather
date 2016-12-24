@@ -66,4 +66,4 @@ The project is available as open source under the terms of the [MIT License](htt
 ## About
 
 The project maintained by [Grand PH], [IOS and MAC Softwares]
-See our other [open-source projects](https://itunes.apple.com/us/app/iweather-fc/id1178484560?mt=8), [download_our_app](https://itunes.apple.com/us/app/iweather-fc/id1178484560?mt=8) or [contact us].
+See our other [open-source projects](https://itunes.apple.com/us/app/iweather-fc/id1178484560?mt=8), [download_our_app](https://itunes.apple.com/us/app/iweather-fc/id1178484560?mt=8) or [contact us ](https://twitter.com/MIhmouda).
