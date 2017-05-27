@@ -21,14 +21,14 @@ Swift 3.0
 <p align="center">
  
   <br><br>  <br><br>
-  <img src="http://appsgeeks.de/IWeather1.png" height="550" width="300">
+  <img src="http://mawaeed.96.lt/uploads/IWeather1.png" height="550" width="300">
  
   </p>
   
  
 <p align="center">
  
-   <img src="http://appsgeeks.de/IWeather2.png" height="550" width="300">
+   <img src="http://mawaeed.96.lt/uploads/IWeather2.png" height="550" width="300">
  
  </p>
   
@@ -38,9 +38,9 @@ Swift 3.0
  <div align="center">
  
  <figure>
-  <img src="http://appsgeeks.de/IWeather3.png" height="550" width="300">
+  <img src="http://mawaeed.96.lt/uploads/IWeather3.png" height="550" width="300">
   <b>  </b>
-   <img src="http://appsgeeks.de/IWeather6.png" height="550" width="300">
+   <img src="http://mawaeed.96.lt/uploads/IWeather6.png" height="550" width="300">
 </figure>
  
   </div>
@@ -51,7 +51,7 @@ Swift 3.0
   
   <div align="center">
  
-  <img src="http://appsgeeks.de/iweather5.jpg" height="550" width="300">
+  <img src="http://mawaeed.96.lt/uploads/iweather5.jpg" height="550" width="300">
  
   </div>
   
